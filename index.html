@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>VOOK</title>
     <link rel="stylesheet" href="./index.css" />
+    <link rel="icon" type="image/x-icon" href=" ./halloween AI/favicon.png">
   </head>
   <body>
     <!-- HEADER SECTION -->
@@ -35,7 +36,7 @@
     </nav>
 
     <!---------------- Hero section -->
-    <section id="home">
+    <section id="home" data-aos="fade-up">
       <div class="gridlayout">
         <div class="herocontent">
           <h2>Scream and Stream!</h2>
@@ -53,21 +54,21 @@
             <img
               src="./halloween AI/Group 14.png"
               alt="NetworkError"
-              srcset=""
+              srcset="" data-aos="flip-left"
             />
           </div>
         </div>
       </div>
     </section>
-    <!-- ---------------------------------------Product section -->
-    <section id="product">
+        <!-- ---------------------------------------Product section ----------->
+    <section id="product" data-aos="fade-up">
       <div class="gridlayout1">
         <h2>PRODUCT</h2>
         <div class="align">
-          <div class="pimage">
-            <img src="./halloween AI/ani.png" alt="NetworkError" />
+          <div class="pimage" >
+            <img src="./halloween AI/ani.png" alt="NetworkError" data-aos="flip-left" />
           </div>
-          <div class="pcontent">
+          <div class="pcontent" data-aos="zoom-in">
             <h3>VooK’s Myst</h3>
             <p>
               VOOK’s Myst is an innovative voice assistant that transforms your
@@ -102,7 +103,7 @@
     </section>
     <section id="about">
       <div class="gridlayout">
-        <div class="about">
+        <div class="about" data-aos="fade-up">
           <h2>About Us</h2>
           <p>
             Welcome to VOOK, where the ordinary meets the extraordinary. We are
@@ -124,7 +125,7 @@
     <!-- Footer section -->
     <footer id="contact">
       <div class="footerbackgroundcolor">
-        <div class="footerdetails">
+        <div class="footerdetails" data-aos="fade-up">
           <h2>Contact Us</h2>
           <img
             src="./halloween AI/logo-Photoroom 1.png"
@@ -133,17 +134,29 @@
             width="398px"
           />
         </div>
-        <div class="footerdetails1">
+        <div class="footerdetails1" data-aos="flip-left">
           <p>vookand@scarygmail.com</p>
           <hr />
         </div>
         <div class="footersocialmedia">
-          <img src="./halloween AI/Vector.png" alt="linlogo" />
-          <img src="./halloween AI/Clip path group.png" alt="xlogo" />
-          <img src="./halloween AI/Group 6.png" alt="instalogo" />
+          <img src="./halloween AI/Vector.png" alt="linlogo" data-aos="flip-left" />
+          <img src="./halloween AI/Clip path group.png" alt="xlogo" data-aos="flip-right"/>
+          <img src="./halloween AI/Group 6.png" alt="instalogo" data-aos="flip-left"/>
         </div>
-        <img src="./halloween AI/footer.png" alt="finalimg" class="finalimg" />
+        <img src="./halloween AI/footer.png" alt="finalimg" class="finalimg"/>
       </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+   AOS.init({
+  duration: 2000,
+})
+
+  </script>
   </body>
 </html>
